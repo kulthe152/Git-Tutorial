@@ -4,6 +4,9 @@ public class App {
 
 	public void addData(String data) {
 		System.out.println("data = "+data);
+		if(data.equals("AyataCommerce")) {
+			System.out.println("Welcome to the Ayata Team");
+		}
 	}
 	
 	public static void main(String[] args) {
